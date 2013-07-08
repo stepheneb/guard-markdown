@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]  
 
 	s.add_dependency 'guard', '>= 0.2.2'
-	s.add_dependency 'kramdown', '~> 0.13.3'
+  s.add_dependency('kramdown', ">= 0.13.3", "< 1.2")
 
   s.add_development_dependency 'bundler', '~> 1.0'
   s.add_development_dependency 'rspec',   '~> 2.6'
